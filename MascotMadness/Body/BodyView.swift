@@ -4,7 +4,16 @@ var torso: some BodyPart {
     Torso {
         ZStack {
             Image("Torso")
-                
+            
+            HStack(spacing: 6) {
+                Text("🇸🇬")
+                Text("🇸🇬")
+                Text("🇸🇬")
+                Text("🇸🇬")
+            }
+            .font(.system(size: 14))
+            .frame(width: 160)
+            .offset(y: 40)
         }
     }
 }
