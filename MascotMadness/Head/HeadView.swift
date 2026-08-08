@@ -3,6 +3,7 @@ import SwiftUI
 var head: some BodyPart {
     Head {
         ZStack {
+           
             Circle()
                 .fill(
                     LinearGradient(
@@ -133,6 +134,7 @@ struct Smile: Shape {
         return path
     }
 }
+
 
 #Preview(traits: .fixedLayout(width: 200, height: 200)) {
     head
