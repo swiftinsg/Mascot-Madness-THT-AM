@@ -5,13 +5,11 @@ var torso: some BodyPart {
         ZStack {
             Image("Torso")
             
-            HStack(spacing: 6) {
-                Text("🇸🇬")
-                Text("🇸🇬")
+            HStack(spacing: 10) {
                 Text("🇸🇬")
                 Text("🇸🇬")
             }
-            .font(.system(size: 14))
+            .font(.system(size: 28))
             .frame(width: 160)
             .offset(y: 40)
         }
